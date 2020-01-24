@@ -1,0 +1,11 @@
+package main.java.liceosorrolla;
+
+
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		System.out.println("Arrays,Numero,Cadena");
+	}
+
+}
