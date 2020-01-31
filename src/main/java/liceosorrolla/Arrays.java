@@ -5,7 +5,7 @@ package main.java.liceosorrolla;
 public class Arrays {
 
 	public static void main(String[] args) {
-		System.out.println("");
+		int[] array = {1,2,3,4,5};
 	}
 
 }
