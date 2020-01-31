@@ -4,6 +4,15 @@ package main.java.liceosorrolla;
 
 public class Numero {
 	
+	public static int factorial(int numero) {
+		int factorial = 1;
+		while (numero!=0) {
+			  factorial=factorial*numero;
+			  numero--;
+		}
+		return factorial;
+	}
+	
 	
 	public static String primo(int numero) {
 		String primo;
@@ -24,6 +33,7 @@ public class Numero {
 	public static void main(String[] args) {
 		int numero = 6;
 		System.out.println(primo(numero));
+		System.out.println(factorial(numero));
 	}
 
 }
